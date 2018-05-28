@@ -1,0 +1,40 @@
+{
+  "name": "loose-text-configs",
+  "version": "1.0.0",
+  "description": "Helper tool for generating JSON objects from text",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "nodemon src/index.js --exec yarn build",
+    "prepublish": "npm run build",
+    "example": "yarn run babel-node src/example.js"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamzebedee/loose-text-config.git"
+  },
+  "keywords": [
+    "javascript",
+    "json",
+    "configuration",
+    "text",
+    "parsing",
+    "helper"
+  ],
+  "author": "liamzebedee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/liamzebedee/loose-text-config/issues"
+  },
+  "homepage": "https://github.com/liamzebedee/loose-text-config#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
