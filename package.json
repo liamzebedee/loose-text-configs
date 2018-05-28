@@ -1,7 +1,7 @@
 {
   "name": "loose-text-configs",
   "version": "1.0.0",
-  "description": "Helper tool for generating JSON objects from text",
+  "description": "Stop hand-writing JSON for configurations that you can easily process like it's text!",
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",

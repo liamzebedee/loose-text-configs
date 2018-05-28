@@ -1,9 +1,11 @@
 loose-text-configs
 ==================
 
-Stop hand-writing JSON for configurations you can easily process like it's text! Small helper library that processes a multi-line string, ignoring empty lines, and runs a function for each line.
+Stop hand-writing JSON for configurations that you can easily process like it's text! Small helper library that processes a multi-line string, ignoring empty lines and trims spacing, and runs a function for each line.
 
 `yarn add loose-text-configs`
+
+Originally built as [part of my Dutch NLP assistant](https://liamz.co/blog/integrating-nlp-into-language-learning-with-dutch/).
 
 ## Example
 ```javascript
